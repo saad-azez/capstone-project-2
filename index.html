@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Saad's Portfolio</title>
+            <link rel="stylesheet" href="./styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quicksand&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div id="one">
+                <h1 class="intro">Hi, I'm Saad Aziz,
+                    and I'm a Front-End
+                    <div class="under_line">
+                        <span class="text">Developer.</span>
+                    </div>
+                </h1>
+                <p class="briefing">Front-End Developer with a passion for crafting
+                    immersive web experiences. Transforming ideas into
+                    code with a keen eye for detail. 
+                </p>
+                <div class="round_line"> 
+                    <button class="hiring_button" onclick="scrollToSection()">
+                        Hire Me
+                    </button>
+                </div>
+            
+            </div>
+
+            <div id="two">
+                <div class="my_image">
+                    <img class="my_img" src="./assets/images/me.jpg" alt="my image">
+                </div>
+                <div class="power_points">
+                    <h2 class="highlights">Career <br> <span> Highlights </span></h2>
+                    <ul class="unordered_list">
+                        <li class="list_items">SUCCESSFULLY INTEGRATED TYPESCRIPT INTO REACT PROJECTS, ENHANCING CODE QUALITY AND CONSISTENCY.</li>
+                        <li class="list_items">STREAMLINED DEVELOPMENT WORKFLOWS BY ORCHESTRATING PIPELINES AND MANAGING RELEASES.</li>
+                        <li class="list_items">RESOLVED COMPLEX FRONT-END CHALLENGES, OPTIMIZING RESPONSIVE DESIGN AND CROSS-BROWSER COMPATIBILITY.</li>
+                        <li class="list_items">COLLABORATED EFFECTIVELY WITH TEAMS TO ENSURE SEAMLESS PROJECT EXECUTION.</li>
+                        <li class="list_items">MAINTAINED A STRONG COMMITMENT TO CONTINUOUS LEARNING AND STAYING UPDATED WITH THE LATEST IN PROGRAMMING AND TECHNOLOGY.</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div id="four">
+                <h2 class="samples"> 
+                    <div class="line-container">
+                        Samples of
+                        <div class="under_line">
+                            <span class="texts">My Work</span>
+                        </div>
+                    </div>
+                </h2>
+                <div class="displaying_samples">
+                    <div class="individual_samples">
+                        <a href="https://www.dev.maplinstudio.com/" class="link_for_image" target="_blank">
+                            <img class="sample_images" src="./assets/images/work_samples/maplinstudio.png" alt="maplin studioimage">
+                        </a>
+                        <p class="individual_paragraphs">
+                            Front-End Developer at Maplin Studio, a top Planning, Architecture, and Structural Engineering 
+                            consultancy. I focused on creating professional web interfaces, utilizing React, TypeScript, SCSS, 
+                            and Material UI.
+                        </p>
+                    </div>
+                    <div class="individual_samples">
+                        <a href="https://www.dev.maplinhomes.com/" class="link_for_image" target="_blank">
+                            <img class="sample_images" src="./assets/images/work_samples/maplinhomes (2).png" alt="maplin homes image">
+                        </a>
+                        <p class="individual_paragraphs">
+                            Played a key role as a Front-End Developer for Maplin Homes, an online platform for property transactions. I
+                            crafted user-friendly interfaces with React, TypeScript, SCSS, and Material UI, enhancing the user experience.
+                        </p>
+                    </div>
+                    <div class="individual_samples">
+                        <a href="https://www.dev.maplinenergy.com/" class="link_for_image" target="_blank">
+                            <img class="sample_images" src="./assets/images/work_samples/maplinenergy (1).png" alt="maplin energy image">
+                        </a>
+                        <p class="individual_paragraphs">
+                            Contributed as a Front-End Developer to Maplin Energy, a premier engineering consultancy. I optimized online
+                            platforms using React, TypeScript, SCSS, Material UI, Git, GitHub, and Azure DevOps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="five">
+                <h2 class="contact_context">I'd love to hear <br>
+                    <div class="circle_outlining"> 
+                        from <span> you </span> 
+                    </div>
+                </h2>
+                    <div class="aligned_logos">
+                        <a href="https://www.linkedin.com/in/saad-azieiz/" class="link_styles" target="_blank">
+                            <img class="logos" src="./assets/images/icons8-linkedin.svg" alt="linkedin logo">
+                        </a>
+                        <a href="mailto:saad.azieiz@gmail.com" class="link_styles" target="_blank">
+                            <img class="logos" src="./assets/images/icons8-email-100.png" alt="email logo">
+                        </a>
+                        <a href="https://wa.me/03433814213" class="link_styles" target="_blank">
+                            <img class="logos" src="./assets/images/icons8-whatsapp.svg" alt="whatsapp logo">
+                        </a>
+                    </div>
+            </div>
+        </body>
+
+        <script>
+            function scrollToSection() {
+                document.querySelector("#five").scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+    </html>
